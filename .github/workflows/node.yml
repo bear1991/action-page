@@ -25,7 +25,7 @@ jobs:
           npm run build
 
       - name: deploy package
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        uses: JamesIves/github-pages-deploy-action@v4.2.2 # 参考：https://github.com/marketplace/actions/deploy-to-github-pages
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
